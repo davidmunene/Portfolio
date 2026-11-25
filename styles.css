@@ -321,9 +321,8 @@ h3 {
   position: relative;
   width: 100%;
   height: auto;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 900 / 1197; /* the photo's own proportions, so nothing is cropped */
   object-fit: cover;
-  object-position: center 18%;
   border-radius: var(--radius);
 }
 
@@ -1032,4 +1031,9 @@ h3 {
   .venture .side {
     grid-column: 1;
   }
+}
+
+.timeline p strong {
+  color: var(--text);
+  font-weight: 600;
 }
