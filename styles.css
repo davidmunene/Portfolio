@@ -1032,8 +1032,3 @@ h3 {
     grid-column: 1;
   }
 }
-
-.timeline p strong {
-  color: var(--text);
-  font-weight: 600;
-}
